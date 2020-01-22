@@ -8,3 +8,7 @@ This code generates captchas of random sequence of 5 characters (digits and alph
 6.	Display this final captcha image
 
 Once the user enters the captcha characters it can be checked. If the user asks for an alternate captcha or for a new user similar randomly generated captchas can be generated like this
+
+
+Note*     This line   rng = np.random.RandomState(40)   in the beginning of the program must be executed only one time i.e when the first captcha is generated. And during the later runs its execution must be disabled
+
